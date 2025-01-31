@@ -1,8 +1,10 @@
 
-export default function Header() {
+export default function Header(props) {
+    const { hanldeToogleMenu }= props
     return (
-        <header>
-            <h1></h1>
+        <header className="menu">
+            <button className="open-search" onClick={()=>{hanldeToogleMenu()}}><i className="fa-solid fa-bars"></i></button>
+            <h1>Pokedex</h1>
         </header>
     )
 }
