@@ -1,0 +1,98 @@
+html{
+  background-color: #222;
+  color: #fff;
+}
+*{
+  font-family:'Marcellus', 'Roboto Condensed', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.sidenav{
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  margin: 1rem;
+  align-items: center;
+}
+.nav-card{
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+}
+.nav-card:hover{
+  background-color: #333;
+}
+.nav-header{
+  font-size: 1.2rem;
+  text-align: center;
+}
+.nav-header h1{
+  font-size: 4rem;
+  margin: 2rem;
+  text-align: center;
+}
+.nav-header input{
+  padding: .5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  width: 20rem;
+  height: 2rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.05rem;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+}
+.nav-header input::placeholder{
+  color: #ccc;
+  text-align: center;
+  font-size: 1.05rem;
+}
+.nav-header input:hover{
+  background-color: #555;
+}
+.poke-card{
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+  min-width: 50%;
+  max-width: 60%;
+  height: 93vh;
+}
+.container{
+  display: flex;
+  flex-wrap: row;
+  justify-content: center;
+  gap: 3rem;
+}
+.typeCard{
+  color: #fff;
+  border-radius: 50rem;
+  padding: .4rem 1rem;
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  max-width: fit-content;
+  margin: 1rem auto;
+}
+.imgPoke{
+  width: 400px;
+  height: 400px;
+}
+.namePoke{
+  font-size: 5rem;
+  text-align: center;
+}
+.numPoke{
+  font-size: 2rem;
+  text-align: center;
+}
